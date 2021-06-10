@@ -1,0 +1,15 @@
+parameterId	parameterScale	lowerBound	upperBound	estimate	nominalValue
+alpha	log10	0.01	100.0	1.0	0.0017
+beta	log10	0.01	100.0	1.0	0.28
+k_NF	log10	0.01	100.0	1.0	1.2e-06
+d_MF	log10	0.01	100.0	1.0	3.2e-07
+k_C	log10	0.01	100.0	1.0	3.8e-13
+k_CD	log10	0.01	100.0	1.0	3.1e-07
+delta_C	log10	0.01	100.0	1.0	0.066
+delta_N	log10	0.01	100.0	1.0	0.061
+alpha_D_Dv	log10	0.01	100.0	1.0	17000.0
+k_ND	log10	0.01	100.0	1.0	6.9e-09
+delta_D	log10	0.01	100.0	1.0	0.1
+Nv	log10	0.01	100.0	1.0	150000000.0
+M	log10	0.01	100.0	1.0	300000.0
+extra	log10	0.01	100.0	1.0	1000000.0

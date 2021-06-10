@@ -1,0 +1,2 @@
+observableId	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+Fungal_clearance	log10(F)	noiseParameter1_Fungal_clearance	lin	normal

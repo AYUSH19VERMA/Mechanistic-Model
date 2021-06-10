@@ -1,0 +1,44 @@
+odes:
+ - stateId: F
+   rightHandSide: beta * F - k_NF * N * F - d_MF * M * F
+   initialValue: 1.0e+6
+ - stateId: C
+   rightHandSide: (k_C * M * F + k_CD * D - delta_C * C) * extra #extra multiple of 1e6
+   initialValue: 0
+ - stateId: N
+   rightHandSide: alpha * Nv * C - k_NF * N * F - delta_N *N
+   initialValue: 0
+ - stateId: D
+   rightHandSide: alpha_D_Dv * C - k_ND * N * D - delta_D * D
+   initialValue: 0
+
+parameters:
+ - parameterId: alpha
+   nominalValue: 0.0017
+ - parameterId: beta 
+   nominalValue: 0.28
+ - parameterId: k_NF 
+   nominalValue: 1.2e-6
+ - parameterId: d_MF 
+   nominalValue: 0.32e-6
+ - parameterId: k_C 
+   nominalValue: 0.38e-12
+ - parameterId: k_CD 
+   nominalValue: 0.31e-6
+ - parameterId: delta_C 
+   nominalValue: 0.066
+ - parameterId: delta_N 
+   nominalValue: 0.061
+ - parameterId: alpha_D_Dv
+   nominalValue: 0.017e+6
+ - parameterId: k_ND
+   nominalValue: 0.0069e-6
+ - parameterId: delta_D
+   nominalValue: 0.1
+ - parameterId: Nv
+   nominalValue: 1.5e+8
+ - parameterId: M
+   nominalValue: 0.3e+6
+ - parameterId: extra
+   nominalValue: 1.0e+6   
+    
