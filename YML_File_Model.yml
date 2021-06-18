@@ -3,7 +3,7 @@ odes:
    rightHandSide: beta * F - k_NF * N * F - d_MF * M * F
    initialValue: 1.0e+6
  - stateId: C
-   rightHandSide: (k_C * M * F + k_CD * D - delta_C * C) * extra #extra multiple of 1e6
+   rightHandSide: (k_C * M * F + k_CD * D - delta_C * C) * extra
    initialValue: 0
  - stateId: N
    rightHandSide: alpha * Nv * C - k_NF * N * F - delta_N *N
