@@ -1,0 +1,116 @@
+odes:
+    - stateId: F
+      rightHandSide: beta * F - k_NF * NN * F - d_MF * M * F
+      initialValue: 1e6
+    
+    - stateId: C
+      rightHandSide: k_C * M * F + k_NC * NN - delta_C * C
+      initialValue: 0
+    
+    - stateId: NN
+      rightHandSide: alpha * Nv * C - k_NF * NN * F - delta_N * NN
+      initialValue: 0
+    
+    - stateId: Fd
+      rightHandSide: k_NF * NN * F + d_MF * M * F - delta_Fd * Fd
+      initialValue: 0
+
+parameters: 
+    - parameterId: alpha
+      nominalValue: 0.0017
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: beta 
+      nominalValue: 0.28
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: k_NF 
+      nominalValue: 1.2e-6
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: d_MF 
+      nominalValue: 0.32e-6
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: k_C 
+      nominalValue: 0.38e-12
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: k_NC
+      nominalValue: 0.31e-6
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: delta_C 
+      nominalValue: 0.066
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: delta_N 
+      nominalValue: 0.061
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: delta_Fd
+      nominalValue: 0.1
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: Nv
+      nominalValue: 1.5e+8
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+    - parameterId: M
+      nominalValue: 0.3e+6
+      parameterScale: log10
+      lowerBound: 0.01
+      upperBound: 100
+      estimate: 1
+
+observables:
+    - observableId: neutrophils_conc
+      observableFormula: NN
+      observableTransformation: lin
+      noiseFormula: noiseParameter1_neutrophils_conc
+      noiseDistribution: normal
+
+    - observableId: fungal_conc
+      observableFormula: F
+      observableTransformation: lin
+      noiseFormula: noiseParameter1_fungal_conc
+      noiseDistribution: normal
+      
+    - observableId: cytokines_tnf
+      observableFormula: log10(C)
+      observableTransformation: lin
+      noiseFormula: noiseParameter1_cytokines_tnf
+      noiseDistribution: normal
+
+conditions:
+    - conditionId: condition1
