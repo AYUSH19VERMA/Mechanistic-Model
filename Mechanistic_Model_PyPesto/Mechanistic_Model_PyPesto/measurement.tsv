@@ -1,0 +1,13 @@
+observableId	simulationConditionId	measurement	time	noiseParameters
+fungal_conc	condition1	7.2	0.166666666666667	0.1
+fungal_conc	condition1	6.8	0.5	0.1
+fungal_conc	condition1	6.4	1	0.1
+fungal_conc	condition1	4.3	2	0.1
+cytokines_tnf	condition1	0	0.083333333333333	0.1
+cytokines_tnf	condition1	200	0.166666666666667	0.1
+cytokines_tnf	condition1	1000	0.333333333333333	0.1
+cytokines_tnf	condition1	2200	1	0.1
+cytokines_tnf	condition1	2400	2	0.1
+neutrophils_conc	condition1	5	0.5	0.1
+neutrophils_conc	condition1	5.39794	1	0.1
+neutrophils_conc	condition1	5.47712	2	0.1

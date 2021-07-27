@@ -1,0 +1,4 @@
+observableId	observableFormula	noiseFormula	observableTransformation	noiseDistribution
+neutrophils_conc	NN	noiseParameter1_neutrophils_conc	lin	normal
+fungal_conc	F	noiseParameter1_fungal_conc	lin	normal
+cytokines_tnf	log10(C)	noiseParameter1_cytokines_tnf	lin	normal
