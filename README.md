@@ -20,8 +20,10 @@ This is the generated sbml file(.xml extension) from the yaml(.yml) file using y
 All the files required for simulating and validating model.
 # Mechanistic_Model_PyPesto
 Parameter optimisation of mechanistic model using pypesto
+
+(This is the main folder which is required for the PyPESTO implementation purpose. It contains all the necessary basic files to optimize your model from the start.)
 # lotka_pypesto
-Parameter optimisation of Lotka model using pypesto
+Parameter optimisation of Lotka Volterra model to implement PyPESTO
 # Mechanistic_Model_plots and results.ipynb
 Simulated mechanistic model equations and contains plot of model.
 # SBML_file.xml
