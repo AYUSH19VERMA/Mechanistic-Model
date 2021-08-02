@@ -29,4 +29,4 @@ Simulated mechanistic model equations and contains plot of model.
 # SBML_file.xml
 Fungal Infection model into SBML
 # amici.ipynb
-Some implementation of amici to the model
+To implemente Model, solver and trajectory plotting of model in amici.
