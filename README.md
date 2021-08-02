@@ -5,7 +5,7 @@
 ● Use simulator to solve equations
 # Pipeline-_Project
 # ODE_Simulations_final.py
-ODE file .py file
+ODE file .py file-
 The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
 # Copy_of_ODE_Simulations_final.ipynb
 ODE simulations file of .ipynb
