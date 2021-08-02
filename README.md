@@ -3,7 +3,7 @@
 ● Set of ODEs
 ● Assign values to each object in the model
 ● Use simulator to solve equations
-# Pipeline-_Project
+# Pipeline_Project
 # ODE_Simulations_final.py
 ODE file .py file-
 The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
