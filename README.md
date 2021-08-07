@@ -1,5 +1,5 @@
 # Getting Started
-##### When a mathematical model is developed to study disease pathogenesis like fungal infection, the structure of the model is defined based on its biological/clinical literature, which helps in understanding and then conducting the model parameter fitting. For parameter fitting, some recently discovered ready to use a variety of methods are already available. New methods are also being developed continuously in this field. Some methods fit better than others, depending on the model structure and the data availability. 
+#### When a mathematical model is developed to study disease pathogenesis like fungal infection, the structure of the model is defined based on its biological/clinical literature, which helps in understanding and then conducting the model parameter fitting. For parameter fitting, some recently discovered ready to use a variety of methods are already available. New methods are also being developed continuously in this field. Some methods fit better than others, depending on the model structure and the data availability. 
 
 # More Project Details 
 ### Objective:
@@ -41,4 +41,6 @@
 #### To implemente Model, solver and trajectory plotting of model in amici.
 
 # Dependencies:
-# License: 
+
+# License:
+### This project is performed under the suprervision of Dr. Reiko Tanaka (Professor at Imperial College London) guided by Ms Tara Hameed(PhD student). The model equations are taken from their paper "In Silico modelling" and data used from their collaborators.  
