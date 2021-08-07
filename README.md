@@ -1,13 +1,13 @@
 # Getting Started
-##● Creating a biochemical reaction network
-##● Set of ODEs
-##● Assign values to each object in the model
-##● Use simulator to solve equations
-##More Project Details 
+## ● Creating a biochemical reaction network
+## ● Set of ODEs
+## ● Assign values to each object in the model
+## ● Use simulator to solve equations
+**More Project Details **
 Problem Statement:
-###1.	Translating the fungal infection model into the Systems Biology Markup Language (SBML), using software such as yaml2smbl in Python.
-###2.	Conducting parameter optimisation of the model with the currently available data using previously developed parameter optimisation tools, such as pyPESTO in Python.
-###3.	Developing a reproducible parameter optimisation pipeline that will be applied to the model to compare the performance of optimisation algorithms.
+### 1.	Translating the fungal infection model into the Systems Biology Markup Language (SBML), using software such as yaml2smbl in Python.
+### 2.	Conducting parameter optimisation of the model with the currently available data using previously developed parameter optimisation tools, such as pyPESTO in Python.
+### 3.	Developing a reproducible parameter optimisation pipeline that will be applied to the model to compare the performance of optimisation algorithms.
 # ODE_Simulations_final.py
 ODE file .py file-
 The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
