@@ -20,7 +20,7 @@ All the above problem can be solved by using a software called PyCharm, which is
 ---
 
 #### All the files and their functions are described below
-ODE_Simulations_final.py:
+ODE_Simulations_final.py
 The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
 ODE simulations file of .ipynb:
 The notebook contains the code and plots of the in silico fungal persistence paper.
