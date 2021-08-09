@@ -17,28 +17,28 @@ More Project Details
 
 ###### All the files and their functions are described below
 ###### ODE_Simulations_final.py
-###### The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
+The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
 ###### ODE simulations file of .ipynb
-###### The notebook contains the code and plots of the in silico fungal persistence paper.
+The notebook contains the code and plots of the in silico fungal persistence paper.
 ###### validate.py
-###### File to check/validate if .yml file is correctly formatted.
-###### convert_yaml_sbml.py
-###### File to convert yaml(.yml) to sbml(.xml).
-###### SBML_file.xml
-###### This is the generated sbml file(.xml extension) from the yaml(.yml) file using yaml2sbml.
-###### Ayush files
-###### All the files required for simulating and validating model.
-###### Mechanistic_Model_PyPesto
-###### Parameter optimisation of mechanistic model using pypesto
-###### (This is the main folder which is required for the PyPESTO implementation purpose. It contains all the necessary basic files to optimize your model from the start.)
-###### lotka_pypesto
-###### Parameter optimisation of Lotka Volterra model to implement PyPESTO
-###### Mechanistic_Model_plots and results.ipynb
-###### Simulated mechanistic model equations and contains plot of model.
-###### SBML_file.xml
-###### Fungal Infection model into SBML
-###### amici.ipynb
-###### To implemente Model, solver and trajectory plotting of model in amici.
+File to check/validate if .yml file is correctly formatted.
+convert_yaml_sbml.py
+File to convert yaml(.yml) to sbml(.xml).
+SBML_file.xml
+This is the generated sbml file(.xml extension) from the yaml(.yml) file using yaml2sbml.
+Ayush files
+All the files required for simulating and validating model.
+Mechanistic_Model_PyPesto
+Parameter optimisation of mechanistic model using pypesto
+(This is the main folder which is required for the PyPESTO implementation purpose. It contains all the necessary basic files to optimize your model from the start.)
+lotka_pypesto
+Parameter optimisation of Lotka Volterra model to implement PyPESTO
+Mechanistic_Model_plots and results.ipynb
+Simulated mechanistic model equations and contains plot of model.
+SBML_file.xml
+Fungal Infection model into SBML
+amici.ipynb
+To implemente Model, solver and trajectory plotting of model in amici.
 
 
 
