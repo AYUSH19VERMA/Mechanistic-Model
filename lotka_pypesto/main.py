@@ -56,7 +56,6 @@ optimizer_pyswarm = optimize.PyswarmOptimizer()
 n_starts = 100
 
 # Due to run time we already use parallelization.
-# This will be introduced in more detail later.
 engine = pypesto.engine.MultiProcessEngine()
 history_options = pypesto.HistoryOptions(trace_record=True)
 
