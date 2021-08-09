@@ -54,3 +54,4 @@ Simulated mechanistic model equations and contains plot of model.
 #### amici.ipynb: 
 To implemente Model, solver and trajectory plotting of model in amici
 
+_ _ _
