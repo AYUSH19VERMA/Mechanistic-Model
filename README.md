@@ -46,6 +46,3 @@ Fungal Infection model into SBML
 amici.ipynb:
 To implemente Model, solver and trajectory plotting of model in amici.
 
----
-
-
