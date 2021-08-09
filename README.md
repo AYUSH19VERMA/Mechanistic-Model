@@ -22,15 +22,15 @@ All the above problem can be solved by using a software called PyCharm, which is
 #### All the files and their functions are described below
 
 ODE_Simulations_final.py
-The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
-ODE simulations file of .ipynb:
-The notebook contains the code and plots of the in silico fungal persistence paper.
-validate.py:
-File to check/validate if .yml file is correctly formatted.
-convert_yaml_sbml.py:
-File to convert yaml(.yml) to sbml(.xml).
-SBML_file.xml:
-This is the generated sbml file(.xml extension) from the yaml(.yml) file using yaml2sbml.
+The file contains code to simulate ODEs mentioned in in silico fungal persistence paper
+ODE simulations file of .ipynb
+The notebook contains the code and plots of the in silico fungal persistence paper
+validate.py
+File to check/validate if .yml file is correctly formatted
+convert_yaml_sbml.py
+File to convert yaml(.yml) to sbml(.xml)
+SBML_file.xml
+This is the generated sbml file(.xml extension) from the yaml(.yml) file using yaml2sbml
 
 #### Ayush files:
 All the files required for simulating and validating model.
@@ -44,5 +44,5 @@ Simulated mechanistic model equations and contains plot of model.
 SBML_file.xml:
 Fungal Infection model into SBML
 amici.ipynb:
-To implemente Model, solver and trajectory plotting of model in amici.
+To implemente Model, solver and trajectory plotting of model in amici
 
