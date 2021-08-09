@@ -1,3 +1,13 @@
+# The file implemets PyPESTO with the Lotka Volterra Model. A detailed .yml extension(for PEtab file) is used as input and outputs the optimized parameters value 
+# for the most optimized optimizer along with some matplotlib plots. Following is the step by step information of what has been implemented in the file.
+# 1. import necessary packages
+# 2. import .yml file extension and measurement.tsv(data file) to generate PEtab file
+# 3. import PEtab problem, define optimizer and run. Output is saved in result variable
+# 4. visualize the parameters value by the absimilarly, ove optimizer, printing the parameters value
+# 5. similarly, the process is followed(3 and 4) for other optimizers like differentialEvolution, scipy, dlib, pyswarm
+# 6. time analysis of different optimizers for each run
+# 7. parameter profiling to check the optimizer performance
+
 import yaml2sbml
 import matplotlib.pyplot as plt
 import os
