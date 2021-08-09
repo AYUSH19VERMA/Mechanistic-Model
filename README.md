@@ -1,6 +1,8 @@
 ## Getting Started
 When a mathematical model is developed to study disease pathogenesis like fungal infection, the structure of the model is defined based on its biological/clinical literature, which helps in understanding and then conducting the model parameter fitting. For parameter fitting, some recently discovered ready to use a variety of methods are already available. New methods are also being developed continuously in this field. Some methods fit better than others, depending on the model structure and the data availability. 
----
+
+_ _ _
+
 ### More Project Details 
 #### Objective:
 1. Translating the fungal infection model into the Systems Biology Markup Language (SBML), using software such as yaml2smbl in Python.
@@ -14,7 +16,9 @@ The aim of this project is to compare the performance of different parameter opt
 2. PyPESTO Implementation to the model
 #### Solution:
 All the above problem can be solved by using a software called PyCharm, which is an integrated development environment used in computer programming. This software supports easy installation of packages like amici and implementing pypesto to the model due to its capacity to contain pre installed dependencies for various packages.
+
 ---
+
 #### All the files and their functions are described below
 ODE_Simulations_final.py:
 The file contains code to simulate ODEs mentioned in in silico fungal persistence paper.
@@ -39,6 +43,7 @@ SBML_file.xml:
 Fungal Infection model into SBML
 amici.ipynb:
 To implemente Model, solver and trajectory plotting of model in amici.
+
 ---
 
 
